@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "remix build",
-    "dev": "npm-run-all2 -p dev:*",
-    "dev:app": "remix dev --manual",
+    "dev": "remix dev --manual",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/server/index.js",
     "predev": "npx tsx --tsconfig ./tsconfig.node.json ./scripts/genAntdCss.tsx",
