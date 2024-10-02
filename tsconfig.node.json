@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "module": "NodeNext",
+    "jsx": "react-jsx",
+    "esModuleInterop": true
+  },
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"]
+}
