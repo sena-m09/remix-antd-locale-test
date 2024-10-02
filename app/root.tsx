@@ -45,9 +45,6 @@ export default function App() {
 const RootProvider = ({ children }: PropsWithChildren) => {
   return (
     <ConfigProvider
-      // TODO: locale の設定方法を見直す必要あり
-      // NOTE: [Internationalization | Ant Design 公式](https://ant.design/docs/react/i18n)に則って実装したものの、日本語化されず。いったん @ts-ignore を使用
-      // @ts-ignore
       locale={jaJP}
       theme={{
         algorithm: theme.defaultAlgorithm,
